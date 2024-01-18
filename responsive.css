@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    header, .hero-section, .products-section, .services-section{
+    header, .hero-section, .product-section, .services-section {
         padding: 0 5rem;
     }
     .hero-section, .products-section, .services-section{
@@ -48,5 +48,33 @@
         width: 100%;
     }
 
+
+    .products-section h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        line-height: 6rem;
+    }
     
+    .product-section .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-section h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        line-height: 6rem;
+    }
+
+    .services-section .services{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-section .services .service-icon{
+        width: 100%;
+        height: 100%;
+    }
+    .services-section .services .service-icon img{
+        margin-top: 5rem;
+    }
+
 }
